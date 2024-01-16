@@ -1,0 +1,8 @@
+namespace JwtPracticePart2.DTO
+{
+    public class TokenPost
+    {
+        public string? AccessToken {get; set;}
+        public string? RefreshToken {get; set;}
+    }
+}
